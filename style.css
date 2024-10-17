@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(19, 3, 41);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 240);
+    font-size: 1.03rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 2rem;
+}
+.blue{
+    color: rgb(133, 93, 226);
+}
+#element{
+    color: rgb(153, 153, 240);
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    
+}
+.firstsection > div{
+    width: 40%;
+}
+.leftsection{
+    margin: 100px 0;
+    font-size: 3rem;
+    padding-left: 70px;
+}
+.rightsection{
+    width: 80%;
+  
+    
+}
+.rightsection img{
+    object-fit: cover;
+    width: 400px;
+    height: 350px;
+    margin: 20px 0;
+    padding-left: 80px;
+}
+.Purple{
+    color: rgb(155, 100, 206);
+}
+.textgrey{
+    color: grey;
+}
+
+.secoundsection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secoundsection h1{
+    font-size: 1.9rem;
+
+}
+.secoundsection .box{
+    background-color: white;
+    width: 76vw;
+    height: 2px;
+    margin: 66px 0 ;
+    display: flex;
+
+}
+.secoundsection .vertical{
+    height: 50px;
+    width: 1px;
+   background-color: white;
+    margin: 0 125px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-text{
+    position: relative;
+    top: 35px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 56px;
+    width: 150px;
+    color: grey;
+    font-size: 10px;
+}
+footer{
+    background-color: #111120;
+    margin-top: 400px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+.footer-first{
+    font-family: cursive
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 220px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+footer .footer div ul li a{
+    color:#d3e1f0;
+    text-decoration: none;
+    padding: 25px;
+}
+.logo{
+    padding-left: 200px;
+    
+    
+}
+.logo a img{
+width: 18px;
+height: 18px;
+opacity: 1;
+  
+}
+.logo a img:hover{
+    opacity: 0.3;
+}
